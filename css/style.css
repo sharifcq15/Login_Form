@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("../assets/copy-space-bokeh-spring-lights-background_52683-55649.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.form_section {
+  font-family: Lato, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 416px;
+  background: azure;
+  box-sizing: border-box;
+  border-radius: 20px;
+  text-align: left;
+}
+
+form {}
+
+form h2 {
+  padding: 40px 0px;
+  text-align: center;
+}
+
+form label {
+  width: 100%;
+  font-style: italic;
+  padding-left: 18px;
+}
+
+form input {
+  width: 89%;
+  background: transparent;
+  border: 1px solid red;
+  margin: 7px 10px 12px 8px;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+form a {
+  width: 34%;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: rgb(168, 146, 146);
+  transition: .7s all ease-in-out;
+}
+
+.btn {
+  width: 120px;
+  margin: auto;
+}
+
+.btn input {
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.btn input:hover {
+  background-color: aquamarine;
+}
+
+form a:hover {
+  color: aquamarine;
+}
